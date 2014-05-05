@@ -1,0 +1,70 @@
+\newcommand{\shorttopPic}[6]{
+\vspace*{0.3cm}
+\fbox{
+	\begin{tabularx}{0.965\linewidth}{Xll}
+		\addtolength{\linewidth}{0.35cm} \multirow{3}{*}{\hspace*{-0.35cm}\includegraphics[width = \linewidth, trim = 0cm #3 0cm #2, clip = true]{#1}} & Zubereitung & #4\\
+		& Menge & #5\\
+		& Quelle & #6
+	\end{tabularx}
+}
+\vspace*{0.4cm}
+\newline
+}
+
+
+\newcommand{\shorttop}[3]{
+\vspace*{0.3cm}
+\begin{flushright}
+\fbox{
+\begin{tabular}{ll}
+		Zubereitung & #1\\
+		Menge & #2\\
+		Quelle & #3
+	\end{tabular}
+}
+\end{flushright}
+\vspace*{0.4cm}
+}
+
+\newcommand{\selfmadetitlepage}{
+\pagestyle{empty}
+\begin{center}
+\vspace*{6cm}
+\begin{Huge}
+\textbf{Erleben. Kochen. Geniessen.}
+\end{Huge}\\
+\vspace*{0.5cm}
+---------------------\\
+
+\vspace*{1cm}
+\begin{Large}
+\textbf{Gesammelte Rezepte}
+\end{Large}
+
+\vspace*{2.5cm}
+\begin{Large}
+Lukas Gratwohl
+\end{Large}\\
+
+\vspace*{1cm}
+\today
+\end{center}
+\newpage
+}
+
+
+
+%\newcommand{\shorttop}[3]{
+%\vspace*{0.5cm}
+%\begin{flushleft}
+%	\fbox{\parbox{0.5\linewidth}{
+%			\begin{tabular}{ll}
+%			Zubereitung & #1\\
+%			Menge & #2\\
+%			Quelle & #3
+%		\end{tabular}
+%		}
+%	}
+%\end{flushleft}
+%\vspace*{0.7cm}
+%}
