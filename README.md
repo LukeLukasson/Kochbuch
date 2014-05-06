@@ -7,5 +7,5 @@ Contains a growing cook book written in German. All the files for compiling the 
 ToDo
 ====
 
-o	Sablé Pictures
-o	Text Lebkuchen
+* Sablé Pictures
+* Text Lebkuchen
